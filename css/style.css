@@ -1,0 +1,104 @@
+/*ROOTS*/
+:root{
+    /*COLORS*/
+    --navbar-footerbtm-bgcolor: rgb(44, 62, 80);
+    --bgcolor-uneven: rgb(26, 188, 156);
+    --color-even: white;
+    --bgcolor-footer-top: rgb(58, 84, 109);
+}
+
+/*COMMON*/
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 1rem ;
+}
+
+.icon{
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    color: white;
+}
+/*HEADER*/
+/*NAV BAR*/
+.nav-bar{
+    background-color: var(--navbar-footerbtm-bgcolor) ;
+}
+
+.logo{
+    color: white;
+    font-size: 1rem;
+}
+
+.ov-2{
+    display: none;
+}
+
+.nav-link{
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .nav-link, .ov-2{
+        display: block;
+    }
+    .nav-icon, .ov-6{
+        display: none;
+    }
+}
+
+/*HERO*/
+.hero{
+    width: 100%;
+    height: 400px;
+    background-color: var(--bgcolor-uneven);
+    color: white;
+}
+
+
+/*MAIN*/
+.main{
+    width: 100%;
+    text-align: center;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    background-color: var(--color-even);
+    width: 100%;
+}
+
+.portfolio img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.about{
+    background-color: var(--bgcolor-uneven);
+    height: 400px;
+}
+
+.contact-me{
+    background-color: var(--color-even);
+    height: 400px;
+    width: 100%;
+}
+
+.footer-top{
+    background-color: var(--bgcolor-footer-top);
+
+}
+
+.footer-bottom{
+    background-color: var(--navbar-footerbtm-bgcolor);
+
+}
