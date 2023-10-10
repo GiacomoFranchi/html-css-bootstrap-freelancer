@@ -8,7 +8,7 @@
 }
 
 /*COMMON*/
-.my_btn{
+.ms_btn{
     color: white;
     border-color: white;
 }
@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 
-.my_white{
+.ms_white{
     filter: invert(99%) sepia(11%) saturate(2%) hue-rotate(308deg) brightness(108%) contrast(101%);
 }
 
@@ -72,7 +72,7 @@ ul{
 
 /*HEADER*/
 /*NAV BAR*/
-.my_nav-bar{
+.ms_nav-bar{
     background-color: var(--navbar-footerbtm-bgcolor);
 }
 
@@ -88,6 +88,7 @@ ul{
 .nav-link{
     display: none;
 }
+
 
 @media screen and (min-width: 576px) {
     .nav-link, .ov-2{
