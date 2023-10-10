@@ -17,6 +17,18 @@
     filter: invert(99%) sepia(11%) saturate(2%) hue-rotate(308deg) brightness(108%) contrast(101%);
 }
 
+.linea-stella{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trattino{
+    border-top:3px solid white;
+    width: 10%;
+
+}
+
 /*HEADER*/
 /*NAV BAR*/
 .my_nav-bar{
@@ -52,6 +64,10 @@
     padding: 3rem;
 }
 
+.ms_hero img{
+    width: 200px;
+    margin-bottom: 2rem;
+}
 
 /*MAIN*/
 .main{
