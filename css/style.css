@@ -88,12 +88,11 @@
 
 .about{
     background-color: var(--bgcolor-uneven);
-    height: 400px;
+    width: 100%;
 }
 
 .contact-me{
     background-color: var(--color-even);
-    height: 400px;
     width: 100%;
 }
 
