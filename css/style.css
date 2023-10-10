@@ -18,6 +18,11 @@
     color: white;
 }
 
+.ms_link_tx{
+    color: var(--bgcolor-uneven);
+    text-decoration: none;
+}
+
 .my_white{
     filter: invert(99%) sepia(11%) saturate(2%) hue-rotate(308deg) brightness(108%) contrast(101%);
 }
@@ -47,6 +52,22 @@
 
 .h-8{
     font-size: 0.8rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.circle{
+    padding: 0.8rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin: 0.5rem;
 }
 
 /*HEADER*/
@@ -100,7 +121,6 @@
     width: 100%;
     border-radius: 15px;
 }
-
 
 .about{
     background-color: var(--bgcolor-uneven);
