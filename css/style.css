@@ -13,8 +13,20 @@
     border-color: white;
 }
 
+.ms_btn_green{
+    background-color: var(--bgcolor-uneven);
+    color: white;
+}
+
 .my_white{
     filter: invert(99%) sepia(11%) saturate(2%) hue-rotate(308deg) brightness(108%) contrast(101%);
+}
+
+.ms_border_inp{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
 }
 
 .linea-stella{
