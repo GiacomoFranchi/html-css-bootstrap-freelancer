@@ -70,6 +70,18 @@ ul{
     margin: 0.5rem;
 }
 
+.btn:hover{
+    outline: none;
+    color: white;
+    background-color: var(--bgcolor-uneven);
+    border: 1px solid white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color:gray ;
+}
+
 /*HEADER*/
 /*NAV BAR*/
 .ms_nav-bar{
