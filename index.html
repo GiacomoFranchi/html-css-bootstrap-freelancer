@@ -12,49 +12,62 @@
 </head>
 <body>
     <!--Header-->
-    <header class="container-fluid">
         <!--Section Nav Bar-->
-        <div class="nav-bar row row-sm">
-            <div class="col-5">
-                <h2 class="logo">START BOOTSTRAP</h2>
-            </div>
-            <div class="col-1 nav-icon offset-6">
-                <i class="fa-solid fa-bars icon" style="color: #ffffff;"></i>
-            </div>
-            <div class="col-5 nav-link offset-2">
-                <ul>
-                    <li><a class="link" href="">PORTFOLIO</a></li>
-                    <li><a class="link" href="">ABOUT</a></li>
-                    <li><a class="link" href="">CONTACT</a></li>
+        <nav class="navbar navbar-expand-sm  my_nav-bar">
+            <div class="container text-white">
+              <a class="navbar-brand text-white fs-4 fw-bold" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler my_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" my_white navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fs-6" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-6" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-6" href="#">CONTACT</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </div>
+          </nav>
         <!--Section Hero-->
-        <section class="hero"></section>
+        <section class="ms_hero">
+            <div class="container text-center">
+                <h1>Start</h1>
+                <span>stella</span>
+                <p>testo 3 parole</p>
+            </div>
+        </section>
     </header>
     <!--Main-->
     <main class="main">
         <!--Section Portfolio-->
-        <div id="portfolio" class="portfolio">
-            <div class="container-s">
-                <h2>PORTFOLIO</h2>
-                <div class="row">
-                    <div class="col-11 col-sm-6 col-md-4 ">
+        <div id="portfolio" class="portfolio py-5">
+            <div class="container">
+                <div class="ms_title">
+                    <h2>PORTFOLIO</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="img/cabin.png" alt="cabin">
                     </div>
-                    <div class="col-11 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <img src="img/cake.png" alt="cake">
                     </div>
-                    <div class="col-11 col-sm-6 col-md-4 ">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="img/circus.png" alt="circus">
                     </div>
-                    <div class="col-11 col-sm-6 col-md-4 ">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="img/game.png" alt="game">
                     </div>
-                    <div class="col-11 col-sm-6 col-md-4 ">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="img/safe.png" alt="safe">
                     </div>
-                    <div class="col-11 col-sm-6 col-md-4 ">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="img/submarine.png" alt="submarine">
                     </div>
                 </div>
@@ -92,10 +105,10 @@
     <footer>
         <!--Section Footer-top-->
         <section class="footer-top container-fluid">
-            <div class="row ">
-                <div class="col-10 col-sm-4 justify-content-center">òsgòAIVòàIYVSàS</div>
-                <div class="col-10 col-sm-4 justify-content-center">yàb8oyàb8yà</div>
-                <div class="col-10 col-sm-4 justify-content-center">GKùIWHDùOIùI</div>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-4 ">òsgòAIVòàIYVSàS</div>
+                <div class="col-10 col-sm-4 ">yàb8oyàb8yà</div>
+                <div class="col-10 col-sm-4 ">GKùIWHDùOIùI</div>
             </div>
         </section>
         <!--Section Footer-bottom-->
