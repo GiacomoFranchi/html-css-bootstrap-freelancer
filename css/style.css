@@ -42,13 +42,13 @@
 
 .trattino{
     border-top:2px solid white;
-    width: 10%;
+    width: 150px;
     opacity: 1;
 }
 
 .trattino-bl{
     border-top:2px solid black;
-    width: 10%;
+    width: 150px;
     opacity: 1;
 }
 
