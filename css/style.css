@@ -86,6 +86,11 @@ ul{
 /*NAV BAR*/
 .ms_nav-bar{
     background-color: var(--navbar-footerbtm-bgcolor);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .logo{
@@ -116,6 +121,7 @@ ul{
     background-color: var(--bgcolor-uneven);
     color: white;
     padding: 3rem;
+    margin-top: 3rem;
 }
 
 .ms_hero img{
