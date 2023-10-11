@@ -41,13 +41,15 @@
 }
 
 .trattino{
-    border-top:3px solid white;
+    border-top:2px solid white;
     width: 10%;
+    opacity: 1;
 }
 
 .trattino-bl{
-    border-top:3px solid black;
+    border-top:2px solid black;
     width: 10%;
+    opacity: 1;
 }
 
 .h-8{
@@ -61,13 +63,13 @@ ul{
 }
 
 .circle{
-    padding: 0.8rem;
+    padding: 0.6rem;
     border: 1px solid white;
     border-radius: 50%;
-    font-size: 0.8rem;
-    height: 2.4rem;
-    width: 2.4rem;
-    margin: 0.5rem;
+    font-size: 0.6rem;
+    height: 1.8rem;
+    width: 2rem;
+    margin: 0.4rem;
 }
 
 .btn:hover{
